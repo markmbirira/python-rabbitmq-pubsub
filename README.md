@@ -1,6 +1,6 @@
 # Using RabbitMQ with Python
 
-> This example uses (https://github.com/pika/pika)[pika RabbitMQ client]
+> This example uses [pika RabbitMQ client](https://github.com/pika/pika)
 
 ## Installation
 
@@ -39,4 +39,4 @@ Open another tab/terminal and run yout `report` Consumer with:
 python report.py
 ```
 
-> Find more docs at (https://pika.readthedocs.io/en/stable/index.html)[pika's documentation]
+> Find more docs at [pika's documentation](https://pika.readthedocs.io/en/stable/index.html)
