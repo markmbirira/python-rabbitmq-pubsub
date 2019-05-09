@@ -19,12 +19,12 @@ $ pip install -r requirements.txt
 ## Run producer
 
 Open the project in your terminal and run your `publish` Producer with:
-
+Note: The `$` symbol denotes your terminal/commandline prompt.
 ```
 $ python publish.py
 ```
 
-To produce multiple (e.g 20) to the queue messages you can use this convenience `$bash one-liner`:
+To produce multiple (e.g 20) messages to the queue you can use this convenience `bash one-liner`:
 ```
 $ for i in {1...20}; do python publish.py; done
 ```
